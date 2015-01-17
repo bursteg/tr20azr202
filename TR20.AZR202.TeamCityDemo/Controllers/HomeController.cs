@@ -16,6 +16,7 @@ namespace TR20.AZR202.TeamCityDemo.Controllers
     public ActionResult About()
     {
       ViewBag.Message = "Your application description page.";
+      ViewBag.x = 1;
 
       return View();
     }
